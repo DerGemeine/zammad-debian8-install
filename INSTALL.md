@@ -75,7 +75,11 @@ change "zammad.example.com" to your hostname.yourdomain.yourtld
     echo "rvm --default use 2.1.5" >> /opt/zammad/.bashrc 
     rvm install 2.1.5 
 
-change gemfile from 2.3.1 to 2.1.5
+Change the ruby version according to your installed one
+
+    ruby --version 
+    cd /opt/zammad 
+    nano 
 
     gem install bundler 
 
