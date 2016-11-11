@@ -11,7 +11,7 @@
 
 #### We have to tell Debian to get Mysql v5.6+ manually, because by default Debian still goes for v5.5
     
-    * wget https://dev.mysql.com/downloads/repo/apt/
+    * wget https://dev.mysql.com/get/mysql-apt-config_0.8.0-1_all.deb
     * dpkg -i downloaded package 
 
 Choose mysql-server 5.6 & Click "Ok"
