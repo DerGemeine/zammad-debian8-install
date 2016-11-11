@@ -5,7 +5,7 @@
 #### Install needed Packages
     * apt-get install curl git-core patch build-essential bison build-essential ruby nano
     zlib1g-dev libssl-dev libxml2-dev libxml2-dev sqlite3 libsqlite3-dev autotools-dev 
-    libxslt1-dev libyaml-0-2 autoconf automake libreadline6-dev libyaml-dev libtool visudo 
+    libxslt1-dev libyaml-0-2 autoconf automake libreadline6-dev libyaml-dev libtool sudo 
     libgmp-dev libgdbm-dev libncurses5-dev pkg-config libffi-dev libmysqlclient-dev nginx
     
 
