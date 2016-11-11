@@ -107,7 +107,7 @@ Install Zammad
 
 Set the username and password you set earlier for the zammad database user (not the linux user!).
 You can also specify the database address (if you have a server solely acting as database server).
-But localhost/127.0.0.1 will just do fine if you've folowed this guide.
+But localhost/127.0.0.1 will just do fine if you've followed this guide.
 
     nano config/database.yml 
     
