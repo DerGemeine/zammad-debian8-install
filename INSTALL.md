@@ -78,8 +78,23 @@ change "zammad.example.com" to your hostname.yourdomain.yourtld
 Change the ruby version according to your installed one
 
     ruby --version 
+    
+ruby version for example 2.1.5p273
+   
     cd /opt/zammad 
-    nano 
+    
+go to line where it says ruby "Version Number" 
+And change it to your version number but without the p-Build Number (e.g. p273)
+    
+    nano Gemfile
+    
+Now do the same for the "Gemfile.lock" 
+Go to the bottom of the page, where again it says ruby "Version Number" and change it (with p-Build Number)
+
+    nano Gemfile.lock
+    
+Now you can install the bundler
+
 
     gem install bundler 
 
