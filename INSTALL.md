@@ -98,7 +98,7 @@ Now you can install the bundler
 
     gem install bundler 
 
-Install Zammad
+Get the database
 
     bundle install --without test development postgres 
     cp config/database.yml.dist config/database.yml 
